@@ -1,0 +1,599 @@
+
+
+.box1 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden; }
+
+.header {
+  width: 100%;
+  height: 6rem; }
+  .header .head-t {
+    width: 100%;
+    height: 2.5rem;
+    position: relative; }
+    .header .head-t .ht-l {
+      width: 1.5rem;
+      height: 1rem;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: 0.8rem;
+      border: 1px solid #000;
+      border-radius: 0.3rem;
+      background: url(../images/z.png) no-repeat;
+      background-size: 0.9rem 0.9rem;
+      background-position: 0.2rem; }
+    .header .head-t .ht-c {
+      width: 50%;
+      height: 1rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      left: 0;
+      font-size: 0.8rem;
+      color: red;
+      text-align: center; }
+    .header .head-t .ht-r {
+      width: 1.5rem;
+      height: 1rem;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      right: 0.8rem;
+      border: 1px solid #000;
+      border-radius: 0.3rem;
+      background: url(../images/s.png) no-repeat;
+      background-size: 0.9rem 0.9rem;
+      background-position: 0.3rem; }
+  .header .head-b {
+    width: 100%;
+    height: 4rem;
+    position: relative; }
+    .header .head-b span {
+      width: 50%;
+      text-align: center;
+      height: 1.20rem;
+      font-size: 0.5rem;
+      line-height: 1.2rem;
+      position: absolute;
+      left: 25%;
+      top: 0; }
+    .header .head-b .ul {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 1.5rem; }
+      .header .head-b .ul .li {
+        width: 2rem;
+        height: 0.6rem;
+        float: left;
+        font-size: 0.5rem;
+        border: 1px solid #000;
+        text-align: center;
+        line-height: 0.6rem;
+        border-radius: 0.2rem;
+        margin-right: 0.5rem; }
+      .header .head-b .ul .li:nth-of-type(1) {
+        margin-left: 2rem;
+        padding-right: 0.5rem;
+        padding-left: 0.2rem;
+        background: url(../images/x.png) no-repeat;
+        background-size: 0.6rem 0.6rem;
+        background-position: 1.3rem; }
+      .header .head-b .ul .li:nth-of-type(3) {
+        opacity: 0.5; }
+
+.center {
+  width: 100%;
+  height: 8rem; }
+  .center .cen {
+    width: 100%;
+    height: 8rem;
+    margin-top: 0.5rem;
+    position: relative; }
+    .center .cen .cen-c {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      left: 0;
+      top: 1rem; }
+      .center .cen .cen-c p {
+        height: 0.7rem;
+        font-size: 0.5rem;
+        text-align: center;
+        line-height: 0.7rem;
+        margin-top: 0.3rem; }
+    .center .cen .cen-t {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 1rem;
+      background: rgba(240, 239, 228, 0.5); }
+    .center .cen .cen-b {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 1rem;
+      background: rgba(240, 239, 228, 0.5); }
+
+.footer {
+  width: 100%;
+  height: 4.5rem;
+  font-size: 0.5rem; }
+  .footer .foot-t {
+    position: relative;
+    width: 100%;
+    height: 2.5rem; }
+    .footer .foot-t .ft-t {
+      width: 1rem;
+      height: 1rem;
+      position: absolute;
+      left: 0;
+      top: 0; }
+    .footer .foot-t .ft-c {
+      width: 70%;
+      height: 1.5rem;
+      position: absolute;
+      left: 15%;
+      bottom: 0; }
+      .footer .foot-t .ft-c .kai {
+        width: 100%;
+        height: 0.1rem;
+        background: #B2B1A5;
+        margin-top: 0.7rem;
+        position: relative; }
+      .footer .foot-t .ft-c .kai-c {
+        width: 0.3rem;
+        height: 0.3rem;
+        position: absolute;
+        left: -0.1rem;
+        top: 0.6rem;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 50%; }
+      .footer .foot-t .ft-c .kai-2 {
+        position: absolute;
+        left: 0rem;
+        top: 0.7rem;
+        width: 0;
+        height: 0.1rem;
+        border-radius: 1px;
+        background: #ff3838; }
+    .footer .foot-t .kai-t, .footer .foot-t .end-t {
+      width: 1rem;
+      height: 1rem;
+      position: absolute; }
+    .footer .foot-t .kai-t {
+      width: 1.3rem;
+      left: 0;
+      bottom: 0.05rem;
+      margin-left: 0rem; }
+    .footer .foot-t .end-t {
+      width: 1.3rem;
+      right: 0;
+      bottom: 0.05rem;
+      margin-right: 0rem; }
+  .footer .foot-c {
+    width: 100%;
+    height: 2rem;
+    position: relative; }
+    .footer .foot-c .play {
+      width: 2rem;
+      height: 2rem;
+      border: 1px solid #000;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      border-radius: 50%;
+      background: url(../images/bo.png) no-repeat;
+      background-size: 1.2rem 1.2rem;
+      background-position: 0.4rem 0.4rem; }
+    .footer .foot-c .play1 {
+      background: url(../images/zt.png) no-repeat;
+      background-size: 1.2rem 1.2rem;
+      background-position: 0.4rem 0.4rem; }
+    .footer .foot-c .shang {
+      width: 1.5rem;
+      height: 1.5rem;
+      border: 1px solid #000;
+      position: absolute;
+      left: 2rem;
+      bottom: 0.25rem;
+      border-radius: 50%;
+      background: url(../images/shang.png) no-repeat;
+      background-size: 1rem 1rem;
+      background-position: 0.25rem 0.25rem; }
+    .footer .foot-c .xia {
+      width: 1.5rem;
+      height: 1.5rem;
+      border: 1px solid #000;
+      position: absolute;
+      right: 2rem;
+      bottom: 0.25rem;
+      border-radius: 50%;
+      background: url(../images/xia.png) no-repeat;
+      background-size: 1rem 1rem;
+      background-position: 0.25rem 0.25rem; }
+  .footer .foot-b {
+    width: 100%;
+    height: 1.4rem; }
+    .footer .foot-b .ft-b {
+      width: 1.4rem;
+      height: 1.4rem;
+      float: left;
+      margin-left: 0.75rem; }
+    .footer .foot-b .ft-b:nth-of-type(1) {
+      background: url(../images/xh.png) no-repeat;
+      background-size: 1rem 1rem;
+      background-position: 0.2rem 0.2rem; }
+    .footer .foot-b .ft-b:nth-of-type(2) {
+      background: url(../images/lp.png) no-repeat;
+      background-size: 1rem 1rem;
+      background-position: 0.2rem 0.2rem; }
+    .footer .foot-b .ft-b:nth-of-type(3) {
+      background: url(../images/xz.png) no-repeat;
+      background-size: 1rem 1rem;
+      background-position: 0.2rem 0.2rem; }
+    .footer .foot-b .ft-b:nth-of-type(4) {
+      background: url(../images/dk.png) no-repeat;
+      background-size: 1rem 1rem;
+      background-position: 0.2rem 0.2rem; }
+    .footer .foot-b .ft-b:nth-of-type(5) {
+      background: url(../images/yy.png) no-repeat;
+      background-size: 1rem 1rem;
+      background-position: 0.2rem 0.2rem; }
+
+.box {
+  width: 100%;
+  height: 20.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #F2F4F5;
+  z-index: 10;
+  display: none;
+  background-size: cover;
+  overflow: hidden; }
+  .box .header {
+    height: 4rem; }
+    .box .header .head-t {
+      background: #CE3D3E;
+      float: left; }
+      .box .header .head-t .ht-l {
+        background: url(../images/sousuo.png) no-repeat;
+        background-size: 0.9rem 0.9rem;
+        background-position: 0.2rem;
+        border: 0; }
+      .box .header .head-t .ht-c span {
+        color: #fff; }
+      .box .header .head-t .ht-r {
+        background: url(../images/zuo.png) no-repeat;
+        background-size: 0.9rem 0.9rem;
+        background-position: 0.3rem;
+        border: 0; }
+    .box .header .head-b {
+      width: 100%;
+      height: 1.2rem; }
+      .box .header .head-b .hb-l {
+        width: 100%;
+        height: 1.2rem;
+        text-align: center;
+        font-size: 0.8rem;
+        line-height: 1.2rem; }
+      .box .header .head-b .tuijian {
+        margin-top: 0rem;
+        padding-right: 0.3rem;
+        width: 100%;
+        height: 1.2rem;
+        float: left;
+        box-sizing: border-box; }
+        .box .header .head-b .tuijian div:nth-of-type(1) {
+          float: left;
+          font-size: 0.6rem;
+          color: #CE3D3E;
+          line-height: 1.2rem;
+          padding-left: 1rem;
+          background: url(../images/tuijian.png) no-repeat;
+          background-size: 0.6rem 0.6rem;
+          background-position: 0.3rem 0.3rem; }
+        .box .header .head-b .tuijian div:nth-of-type(2) {
+          float: right;
+          font-size: 0.6rem;
+          color: #CE3D3E;
+          margin-left: 1rem;
+          line-height: 1.2rem;
+          padding-right: 1rem;
+          background: url(../images/zuojian.png) no-repeat;
+          background-size: 0.6rem 0.6rem;
+          background-position: 1.2rem 0.3rem; }
+
+.playlist {
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  background: #fff;
+  width: 100%;
+  height: 6rem;
+  display: none;
+  overflow: scroll; }
+  .playlist .plays {
+    width: 100%;
+    height: 1.1rem;
+    line-height: 1.1rem;
+    box-sizing: border-box;
+    text-align: center; }
+    .playlist .plays span:nth-of-type(1) {
+      font-size: 0.6rem;
+      color: #111111; }
+      .playlist .plays span:nth-of-type(1) i {
+        font-style: normal; }
+    .playlist .plays span:nth-of-type(2) {
+      float: right;
+      color: #333;
+      font-size: 0.6rem;
+      margin-right: 0.4rem; }
+  .playlist ul {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-left: 0.35rem;
+    box-sizing: border-box; }
+    .playlist ul li {
+      width: 100%;
+      height: 0.94rem;
+      border-bottom: 1px solid #ededed;
+      color: #7c7c7c;
+      line-height: 0.94rem;
+      font-size: 0.6rem; }
+      .playlist ul li a {
+        font-family: "iconfont";
+        font-size: 0.36rem;
+        color: #FF3838;
+        display: none;
+        margin-right: 0.2rem; }
+      .playlist ul li div:nth-of-type(1) {
+        font-size: 0.3rem;
+        color: #191919; }
+      .playlist ul li div:nth-of-type(2) {
+        font-size: 0.24rem; }
+      .playlist ul li div:nth-of-type(3) {
+        font-size: 0.24rem; }
+      .playlist ul li div:nth-of-type(4) {
+        font-size: 0.24rem;
+        float: right;
+        font-family: "iconfont";
+        margin-right: 0.4rem; }
+    .playlist ul li span {
+      margin-left: 0.5rem; }
+    .playlist ul li.active span {
+      font-size: 0.6rem;
+      color: #FF3838;
+      margin-left: 0.5rem; }
+    .playlist ul li.active a {
+      display: inline-block; }
+
+.center {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  box-sizing: border-box; }
+  .center .box2 {
+    width: 100%;
+    height: 8rem;
+    overflow: hidden; }
+    .center .box2 .boxs {
+      width: 2.5rem;
+      height: 2.5rem;
+      float: left;
+      border: 1px solid #000;
+      margin-left: 8%;
+      border-radius: 50%;
+      padding-right: 0.25rem;
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 1rem; }
+      .center .box2 .boxs .img1 {
+        width: 100%;
+        height: 2.5rem;
+        float: left;
+        overflow: hidden;
+        background: url(../images/xuwei.jpg) no-repeat;
+        background-size: cover;
+        transform: scale(1.5);
+        background-repeat: no-repeat;
+        background-position: center center; }
+      .center .box2 .boxs p {
+        width: 100%;
+        height: 1rem;
+        color: #333;
+        font-size: 0.24rem;
+        line-height: 0.8rem;
+        float: left;
+        text-align: center; }
+    .center .box2 .boxs:nth-of-type(2) .img1 {
+      background: url(../images/xusong.jpeg) no-repeat;
+      background-size: cover;
+      transform: scale(1.5); }
+    .center .box2 .boxs:nth-of-type(3) .img1 {
+      background: url(../images/4.webp) no-repeat;
+      background-size: cover;
+      transform: scale(1.5); }
+    .center .box2 .boxs:nth-of-type(4) .img1 {
+      background: url(../images/4.webp) no-repeat;
+      transform: scale(1.5);
+      background-size: cover; }
+    .center .box2 .boxs:nth-of-type(5) .img1 {
+      background: url(../images/4.webp) no-repeat;
+      transform: scale(1.5);
+      background-size: cover; }
+    .center .box2 .boxs:nth-of-type(6) .img1 {
+      background: url(../images/6.webp) no-repeat;
+      transform: scale(1.5);
+      background-size: cover; }
+
+.footer .songlist {
+  width: 100%;
+  height: 6.5rem;
+  overflow: hidden;
+  padding-left: 0.3rem;
+  box-sizing: border-box;
+  margin-top: 2.4rem;
+  background: #f2f4f5;
+  overflow: scroll; }
+  .footer .songlist li {
+    width: 100%;
+    float: left;
+    height: 1.15rem;
+    border-bottom: 0.02rem solid #e2e4e5; }
+    .footer .songlist li p {
+      width: auto;
+      font-size: 0.3rem;
+      color: #171717;
+      line-height: 0.65rem; }
+    .footer .songlist li span {
+      font-size: 0.6rem;
+      color: #9b9b9b;
+      line-height: 1.15rem;
+      margin-left: 1rem; }
+    .footer .songlist li .delete {
+      width: 0.6rem;
+      height: 0.6rem;
+      float: right;
+      margin-right: 0.6rem;
+      background: url(../images/10.png) no-repeat;
+      background-size: 0.6rem 0.6rem; }
+  .footer .songlist li.active p, .footer .songlist li.active span, .footer .songlist li.active .iphone {
+    text-align: 1.15rem;
+    font-size: 0.6rem;
+    color: #FF3838; }
+
+.foot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2rem;
+  background: #fff; }
+  .foot .tu {
+    width: 1.5rem;
+    height: 1.5rem;
+    overflow: hidden;
+    margin-top: 0.08rem;
+    margin-left: 0.15rem;
+    float: left; }
+    .foot .tu img {
+      width: 100%;
+      height: auto;
+      min-height: 100%; }
+  .foot .content {
+    float: left;
+    margin-left: 0.2rem; }
+    .foot .content p:first-of-type {
+      font-size: 0.6rem;
+      color: #171717;
+      line-height: 2rem; }
+    .foot .content p:nth-of-type(2) {
+      font-size: 0.6rem;
+      color: #717171;
+      line-height: 2rem; }
+  .foot span {
+    font-family: "iconfont";
+    color: #ce3d3e;
+    float: right;
+    margin-right: 0.45rem;
+    line-height: 2rem;
+    font-size: 0.6rem; }
+  .foot span:first-of-type {
+    margin-right: 0.3rem;
+    line-height: 2rem; }
+  .foot .play {
+    font-size: 0.64rem; }
+
+.foott {
+  margin-top: -2rem; }
+
+.delete {
+  width: 0.6rem;
+  height: 0.6rem;
+  float: right;
+  margin-right: 0.6rem;
+  background: url(../images/10.png) no-repeat;
+  background-size: 0.6rem 0.6rem; }
+
+.box4 {
+  animation: box 0.8s linear forwards; }
+
+@keyframes box {
+  0% {
+    transform: translateX(0%); }
+  100% {
+    transform: translateX(100%); } }
+
+.zhuan {
+  transform: rotate(1000deg);
+  transition-duration: 150s; }
+
+.box3 {
+  width: 100%;
+  height: 20.4rem;
+  position: absolute;
+  left: -100%;
+  z-index: 5;
+  background: url(../images/1.webp);
+  background-size: cover;
+  background-position: center center; }
+  .box3 .zhao {
+    width: 100%;
+    height: 20.4rem;
+    background: rgba(0, 0, 0, 0.9); }
+  .box3 .header .head-t .ht-l {
+    border: 2px solid #fff; }
+  .box3 .header .head-t .ht-c a {
+    color: rgba(255, 255, 255, 0.7); }
+  .box3 .header .head-t .ht-r {
+    border: 2px solid #fff; }
+  .box3 .header .head-b span {
+    color: rgba(255, 255, 255, 0.7); }
+  .box3 .header .head-b .ul .li {
+    border: 2px solid #fff;
+    color: rgba(255, 255, 255, 0.7); }
+  .box3 .center {
+    width: 100%;
+    height: 8rem; }
+    .box3 .center .cen1 {
+      width: 5rem;
+      height: 5rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      background: url(../images/1.webp);
+      background-size: cover;
+      background-position: center center;
+      overflow: hidden; }
+  .box3 .footer .foot-t .kai-t {
+    color: #fff; }
+  .box3 .footer .foot-t .end-t {
+    color: #fff; }
+  .box3 .footer .foot-c .play {
+    border: 1px solid #fff; }
+  .box3 .footer .foot-c .shang {
+    border: 1px solid #fff; }
+  .box3 .footer .foot-c .xia {
+    border: 1px solid #fff; }

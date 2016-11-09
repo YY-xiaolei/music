@@ -1,0 +1,197 @@
+html {
+  font-size: 100px; }
+
+body {
+  font-size: 16px;
+  overflow: hidden; }
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 29.62963px; } }
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 33.33333px; } }
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 34.72222px; } }
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 38.14815px; } }
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 38.33333px; } }
+
+.bofang {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.bf-ding {
+  widt: 100%;
+  height: 2rem;
+  position: relative; }
+  .bf-ding .bf-xia {
+    width: 1.5rem;
+    height: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 0.8rem;
+    color: #999;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0.5rem; }
+  .bf-ding .bf-fx {
+    width: 1.5rem;
+    height: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 0.8rem;
+    color: #999;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 0.5rem; }
+
+.bf-cd {
+  width: 80%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 3.5rem;
+  opacity: 0.8; }
+
+.bf-gequ {
+  width: 100%;
+  height: 2.5rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 6.5rem; }
+  .bf-gequ .bf-gm {
+    width: 100%;
+    height: 1.3rem;
+    text-align: center;
+    line-height: 1.3rem;
+    color: #888;
+    font-size: 25px; }
+  .bf-gequ .bf-gs {
+    width: 100%;
+    height: 1.2rem;
+    text-align: center;
+    line-height: 1.2rem;
+    color: #888;
+    font-size: 20px; }
+
+.bf-gc {
+  width: 100%;
+  height: 6rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 9rem;
+  background: #fff;
+  overflow: scroll; }
+  .bf-gc p {
+    width: 100%;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem; }
+
+ .hezi{
+         padding-top: 0.5rem;
+         padding-left: 2.1rem;
+         
+    }
+.hezi li{
+       width: 1.3rem;
+       height: 0.48rem;
+       border:1px solid #65645c;
+       border-radius:0.1rem;
+       font-size:0.2rem;
+       color:#77766d;
+       float:left;
+       text-align: center;
+       line-height: 0.48rem;
+       margin-right: 0.3rem;
+ }
+.bf-jd {
+  width: 70%;
+  height: 0.1rem;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 16rem;
+  overflow: hidden; }
+  .bf-jd .bf-jds {
+    width: 0;
+    height: 100%;
+    background: #999;
+    float: left; }
+
+.bf-sc {
+  width: 0.8rem;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  position: absolute;
+  left: 0.1rem;
+  top: 15.85rem;
+  font-size: 14px; }
+
+.bf-zsc {
+  width: 0.8rem;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  position: absolute;
+  right: 0.1rem;
+  top: 15.85rem;
+  font-size: 14px; }
+
+.bf-btn {
+  width: 70%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 17rem; }
+  .bf-btn div {
+    width: 20%;
+    height: 1.3rem;
+    border: 1px solid #CCCCCC;
+    border-right: 0;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1.3rem;
+    font-size: 25px;
+    color: #888888; }
+  .bf-btn .bf-xz {
+    border-right: 1px solid #ccc; }
+  .bf-btn .bf-ks {
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 0 6px #ccc; }
+  .bf-btn .bf-xyq {
+    border-left: 0; }
+  .bf-btn .bf-xh {
+     }
+
+.active {
+  color: red; }
