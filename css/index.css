@@ -1,197 +1,293 @@
+@charset "UTF-8";
 html {
   font-size: 100px; }
 
 body {
   font-size: 16px;
-  overflow: hidden; }
+  background: linear-gradient(160deg, #06f2f7, #8e05ee); }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  position: relative;
+  font-family: "微软雅黑"; }
+
+.m-icon {
+  font-family: 'iconfont';
+  font-size: 0.62rem;
+  font-style: normal;
+  color: #fff; }
 
 @media screen and (min-width: 320px) {
   html {
-    font-size: 29.62963px; } }
+    font-size: 42.66667px; } }
 
 @media screen and (min-width: 360px) {
   html {
-    font-size: 33.33333px; } }
+    font-size: 48px; } }
 
 @media screen and (min-width: 375px) {
   html {
-    font-size: 34.72222px; } }
+    font-size: 50px; } }
 
 @media screen and (min-width: 412px) {
   html {
-    font-size: 38.14815px; } }
+    font-size: 54.93333px; } }
 
 @media screen and (min-width: 414px) {
   html {
-    font-size: 38.33333px; } }
+    font-size: 55.2px; } }
 
-.bofang {
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 80px; } }
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 102.4px; } }
+
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 106.66667px; } }
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 136.53333px; } }
+
+.music li {
+  cursor: pointer; }
+  .music li span {
+    display: inline-block;
+    width: 180px;
+    text-align: left; }
+
+.music li.current-music {
+  color: gold; }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
-  position: relative; }
-
-.bf-ding {
-  widt: 100%;
-  height: 2rem;
-  position: relative; }
-  .bf-ding .bf-xia {
-    width: 1.5rem;
-    height: 0.8rem;
-    border: 1px solid #ccc;
-    border-radius: 20px;
+  height: 1.44rem;
+  padding: 0 0.24rem;
+  font-size: 0.3rem;
+  color: #fff; }
+  .header .hleft, .header .hright {
+    width: 8%;
+    height: 1rem;
+    float: left;
     text-align: center;
-    line-height: 0.8rem;
-    color: #999;
-    font-size: 18px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    left: 0.5rem; }
-  .bf-ding .bf-fx {
-    width: 1.5rem;
-    height: 0.8rem;
-    border: 1px solid #ccc;
-    border-radius: 20px;
+    line-height: 1rem; }
+  .header .hmid {
+    width: 84%;
+    height: 1rem;
+    float: left;
     text-align: center;
-    line-height: 0.8rem;
-    color: #999;
-    font-size: 18px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    right: 0.5rem; }
+    line-height: 1rem; }
+  .header .hbottom {
+    float: left;
+    width: 100%;
+    height: 0.44rem;
+    line-height: 0.44rem;
+    text-align: center; }
+    .header .hbottom span {
+      display: inline-block;
+      padding: 0 0.16rem;
+      font-size: 0.2rem; }
 
-.bf-cd {
-  width: 80%;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: 3.5rem;
-  opacity: 0.8; }
-
-.bf-gequ {
+.main {
   width: 100%;
-  height: 2.5rem;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: 6.5rem; }
-  .bf-gequ .bf-gm {
+  padding: 0 0.24rem;
+  padding-top: 1.44rem;
+  height: 13.34rem; }
+  .main .mtop {
+    width: 5.36rem;
+    height: 5.36rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 0.44rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.14);
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-clip: content-box; }
+    .main .mtop .mtopinner {
+      width: 0.94rem;
+      height: 0.94rem;
+      border-radius: 50%;
+      border: 0.2rem solid rgba(0, 0, 0, 0.14);
+      background: #369ef4;
+      background-clip: content-box;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto; }
+  .main .mbottom {
     width: 100%;
-    height: 1.3rem;
-    text-align: center;
-    line-height: 1.3rem;
-    color: #888;
-    font-size: 25px; }
-  .bf-gequ .bf-gs {
-    width: 100%;
-    height: 1.2rem;
-    text-align: center;
-    line-height: 1.2rem;
-    color: #888;
-    font-size: 20px; }
+    height: 3.96rem;
+    padding: 0.26rem 1.1rem;
+    overflow: hidden; }
+    .main .mbottom .irc {
+      font-size: 0.28rem;
+      text-align: center;
+      color: #fff; }
 
-.bf-gc {
+.change {
+  position: fixed;
+  bottom: 0;
+  left: 0;
   width: 100%;
-  height: 6rem;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: 9rem;
-  background: #fff;
-  overflow: scroll; }
-  .bf-gc p {
-    width: 100%;
-    height: 0.5rem;
-    text-align: center;
-    line-height: 0.5rem; }
-
- .hezi{
-         padding-top: 0.5rem;
-         padding-left: 2.1rem;
-         
-    }
-.hezi li{
-       width: 1.3rem;
-       height: 0.48rem;
-       border:1px solid #65645c;
-       border-radius:0.1rem;
-       font-size:0.2rem;
-       color:#77766d;
-       float:left;
-       text-align: center;
-       line-height: 0.48rem;
-       margin-right: 0.3rem;
- }
-.bf-jd {
-  width: 70%;
-  height: 0.1rem;
-  border: 1px solid #ececec;
-  border-radius: 5px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: 16rem;
-  overflow: hidden; }
-  .bf-jd .bf-jds {
-    width: 0;
-    height: 100%;
-    background: #999;
-    float: left; }
-
-.bf-sc {
-  width: 0.8rem;
-  height: 0.4rem;
-  text-align: center;
-  line-height: 0.4rem;
-  position: absolute;
-  left: 0.1rem;
-  top: 15.85rem;
-  font-size: 14px; }
-
-.bf-zsc {
-  width: 0.8rem;
-  height: 0.4rem;
-  text-align: center;
-  line-height: 0.4rem;
-  position: absolute;
-  right: 0.1rem;
-  top: 15.85rem;
-  font-size: 14px; }
-
-.bf-btn {
-  width: 70%;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: 17rem; }
-  .bf-btn div {
+  height: 1.7rem;
+  padding: 0 0.24rem;
+  z-index: 99; }
+  .change span {
+    display: block;
+    float: left;
     width: 20%;
     height: 1.3rem;
-    border: 1px solid #CCCCCC;
-    border-right: 0;
-    float: left;
-    box-sizing: border-box;
+    font-size: 0.4rem;
     text-align: center;
     line-height: 1.3rem;
-    font-size: 25px;
-    color: #888888; }
-  .bf-btn .bf-xz {
-    border-right: 1px solid #ccc; }
-  .bf-btn .bf-ks {
-    border: 1px solid #CCCCCC;
-    box-shadow: 0 0 6px #ccc; }
-  .bf-btn .bf-xyq {
-    border-left: 0; }
-  .bf-btn .bf-xh {
-     }
+    cursor: pointer; }
+  .change .next, .change .lists, .change .play {
+    line-height: 1.2rem; }
+  .change span.xinh i {
+    color: red; }
 
-.active {
-  color: red; }
+.time {
+  width: 100%;
+  height: 0.4rem;
+  vertical-align: middle; }
+
+.progress {
+  float: left;
+  margin-top: 0.09rem;
+  width: 4.84rem;
+  height: 0.08rem;
+  background: #fff;
+  border-radius: 0.04rem;
+  position: relative; }
+
+.p-i {
+  position: absolute;
+  left: 0;
+  top: -0.08rem;
+  width: 0.24rem;
+  height: 0.24rem;
+  border-radius: 50%;
+  background: #fff;
+  z-index: 10; }
+
+.p-ib {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0.2rem;
+  background: gold;
+  height: 0.08rem;
+  border-radius: 0; }
+
+.current-time, .duration {
+  float: left;
+  width: 1.04rem;
+  color: #CCCCCC;
+  font-size: 0.18rem;
+  text-align: center; }
+
+.vol-btn {
+  position: absolute;
+  right: 0.3rem;
+  top: -0.62rem;
+  width: 0.4rem;
+  height: 0.4rem;
+  text-align: center;
+  font-size: 0.36rem;
+  line-height: 0.4rem; }
+  .vol-btn i {
+    font-size: 0.36rem; }
+
+.jingyin {
+  width: 0.4rem;
+  height: 0.4rem;
+  text-align: center;
+  font-size: 0.36rem;
+  line-height: 0.4rem;
+  position: absolute;
+  top: -0.6rem;
+  left: -0.18rem; }
+
+.volume {
+  background: #fff;
+  position: absolute;
+  left: 0.18rem;
+  bottom: 0.6rem;
+  width: 0.06rem;
+  height: 2.5rem;
+  display: none; }
+
+.v-i {
+  width: 0.24rem;
+  height: 0.24rem;
+  background: #eee;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: -0.09rem; }
+
+.play-lists {
+  display: none;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  width: 100%;
+  padding: 0.76rem;
+  background: rgba(0, 0, 0, 0.6); }
+  .play-lists .dqlb {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0.76rem;
+    text-align: center;
+    font-size: 0.4rem;
+    line-height: 0.76rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff; }
+  .play-lists .close {
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0.76rem;
+    text-align: center;
+    font-size: 0.4rem;
+    line-height: 0.76rem;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff; }
+  .play-lists ul {
+    width: 100%; }
+    .play-lists ul li {
+      width: 100%;
+      height: 0.76rem; }
+      .play-lists ul li span {
+        display: block;
+        float: left;
+        color: #fff;
+        line-height: 1rem;
+        border-bottom: 1px solid #fff; }
+      .play-lists ul li .geming {
+        width: 60%;
+        font-size: 0.3rem; }
+      .play-lists ul li .zuoz {
+        width: 35%;
+        font-size: 0.2rem; }
+      .play-lists ul li .shanc {
+        width: 5%;
+        text-align: right; }
+    .play-lists ul li.current-music span {
+      color: gold; }

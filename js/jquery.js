@@ -10342,58 +10342,10 @@ jQuery.noConflict = function( deep ) {
 if ( typeof noGlobal === strundefined ) {
 	window.jQuery = window.$ = jQuery;
 }
+
+
+
+
 return jQuery;
 
 }));
-jQuery.extend({
-  backTop:function(obj,time){
-      obj.click(function(){
-      	var top=$(window).scrollTop();
-      	var src={aa:top};
-      	$(src).animate({aa:0},{
-      		duration:time,
-      		step:function(){
-      			$(window).scrollTop(src.aa);
-      		}
-      	})
-      })
-  }
-})
-// jQuery.backTop(obj,time); 调用方式
-// mousewheel
-jQuery.fn.extend({
-	mousewheel:function(up,down){
-        this.each(function(index,obj){
-              if (obj.attchEvent) {
-				    // IE的鼠标滚动事件
-				     obj.attchEvent("onmousewheel",scrollFun);
-				   }
-				   else{
-				    // 谷歌的鼠标滚动事件
-				    obj.addEventListener("mousewheel",scrollFun,false);
-				    // 火狐的鼠标滚动事件
-				    obj.addEventListener("DOMMouseScroll",scrollFun,false);
-				   }
-				   function scrollFun(e){
-			       var e=e||window.event;
-			       var nub=e.wheelDelta||e.detail;
-			       if (e.preventDefault) {
-			          e.preventDefault();
-			       }
-			       else{
-			          e.returnValue=false;
-			       }
-			       // 向上120向下-120谷歌和IE中 
-			       // 向上-3向下3是火狐中 
-			       if (nub==120||nub==-3) {
-			          up.call(obj);
-			          // 改变this指针将this指针指向obj
-			       }
-			       else if(nub==-120||nub==3){
-			        down.call(obj);
-			       }
-			   }
-        })
-	}
-})
-// 调用方式 $(".box").mousewheel(function(){},function(){})
